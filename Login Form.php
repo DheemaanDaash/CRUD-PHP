@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 <style>
+html,
 body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background: #f6f6f6;
+  font-family: Poppins;
   background-image: url("gradient_bg.png");
   background-repeat: repeat-x;
 }
@@ -34,20 +40,19 @@ input[type="password"] {
   font-size: 20px;
   color: black;
 }
-
 .login-box{
 width: 285px;
 position: absolute;
 top: 40%;
 left: 30%;
 color: #4CAF50;
-
 border-radius: 15px;
 border: 2px solid #4CAF50;
 padding: 20px; 
 width: 300px;
 height: 145px; 
 }
+
 </style>
 <body>
 <div class="login-box">
@@ -62,3 +67,7 @@ height: 145px;
 </div>
 </body>
 </html>
+<?php
+include('Footer.php');
+
+?>
